@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KWProjects.Clients.GeoNamesOrgClient.Domain\KWProjects.Clients.GeoNamesOrgClient.Domain.csproj" />
+    <ProjectReference Include="..\KWProjects.Clients.GeoNamesOrgClient.Extentions\KWProjects.Clients.GeoNamesOrgClient.Extentions.csproj" />
+    <ProjectReference Include="..\KWProjects.Clients.GeoNamesOrgClient\KWProjects.Clients.GeoNamesOrgClient.csproj" />
+    <ProjectReference Include="..\KWProjects.Moduls.GeoDB.Domain\KWProjects.Moduls.GeoDB.Domain.csproj" />
+    <ProjectReference Include="..\KWProjects.Moduls.GeoDB.Service\KWProjects.Moduls.GeoDB.Service.csproj" />
+  </ItemGroup>
+
+</Project>

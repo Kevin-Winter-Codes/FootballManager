@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Data Source=localhost\SQLEXPRESS;Initial Catalog=GeoDB;Integrated Security=true;" --context-dir "C:\\Fussball Manager\\Development\\PocketFManager\\KWProjects.Moduls.GeoDB.Persistence\\Context" --output-dir "C:\\Fussball Manager\\Development\\PocketFManager\\KWProjects.Moduls.GeoDB.Domain\\Entities" Microsoft.EntityFrameworkCore.SqlServer
